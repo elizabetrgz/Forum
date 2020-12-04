@@ -13,3 +13,11 @@
  .created-col {
      min-width: 12em;
  }
+ 
+ .author-col {
+     min-width: 12em;
+ }
+ 
+ .post-col {
+     min-width: 20em;
+ }
