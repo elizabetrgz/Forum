@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Forum-Create new topic</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark ">
+        <div class="container">
+            <h1><a href="0" class="navbar-brand">Forum</a></h1>
+            <form class="form-inline">
+                <input class="form-control mr-3" type="search" placeholder="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container my-3">
+        <nav class="breadcrumb">
+            <a href="#0" class="breadcrumb-item">Board index</a>
+            <a href="#0" class="breadcrumb-item">Forum category</a>
+            <a href="#0" class="breadcrumb-item">Forum name</a>
+            <span class="breadcrumb-item active">Create new topic</span>
+        </nav>
+        <div class="row">
+            <div class="col-12">
+                <h2 class="h4 text-white bg-warning mb-3 p-4 rounded">Create a new topic</h2>
+                <form class="mb-3">
+                    <div class="form-group">
+                        <label for="topic">Topics:</label>
+                        <input type="text" class="form-control" placeholder="Give your topic a title." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comments:</label>
+                        <textarea id="comment" rows="10" class="form-control" placeholder="Write your comment here"></textarea>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" id="checkbox" value="notification">
+                                        Notify me upon replies
+                                </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create topic</button>
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="small bg-dark text-white">
+        <div class="container py-4">
+            <ul class="list-inline mb-0 text-center">
+                <li class="list-inline-item">&copy;2017 Web Company.Inc.</li>
+                <li class="list-inline-item">All rights reserved</li>
+                <li class="list-inline-item"><a href="#0">Terms of use and privacy policy.</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
