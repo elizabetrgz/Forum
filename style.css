@@ -5,3 +5,11 @@
  .last-post-col {
      min-width: 12em;
  }
+ 
+ .topic-col {
+     min-width: 16em;
+ }
+ 
+ .created-col {
+     min-width: 12em;
+ }
